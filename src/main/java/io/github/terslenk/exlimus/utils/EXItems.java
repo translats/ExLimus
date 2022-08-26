@@ -16,37 +16,37 @@ public class EXItems {
     public static final SlimefunItemStack WOODEN_KAMA = new SlimefunItemStack(
             "EL_WOODEN_KAMA",
             Material.WOODEN_HOE,
-            "&fWooden Kama",
+            "&f木制卡玛",
             "",
-            "&7A Tool that can be used for harvesting leaves"
+            "&7一种可用于采摘树叶的工具"
     );
     public static final SlimefunItemStack STONE_KAMA = new SlimefunItemStack(
             "EL_STONE_KAMA",
             Material.STONE_HOE,
-            "&fStone Kama",
+            "&f石头卡玛",
             "",
-            "&7A Tool that can be used for harvesting leaves"
+            "&7一种可用于采摘树叶的工具"
     );
     public static final SlimefunItemStack IRON_KAMA = new SlimefunItemStack(
             "EL_IRON_KAMA",
             Material.IRON_HOE,
-            "&fIron Kama",
+            "&f铁卡马",
             "",
-            "&7A Tool that can be used for harvesting leaves"
+            "&7一种可用于采摘树叶的工具"
     );
     public static final SlimefunItemStack STONE_HAMMER = new SlimefunItemStack(
             "EL_STONE_HAMMER",
             Material.STONE_PICKAXE,
-            "&fStone Hammer",
+            "&f石锤",
             "",
-            "&7Chunky stone pickaxe that can be used for crushing"
+            "&7可用于碾压的大块石镐"
     );
     public static final SlimefunItemStack IRON_HAMMER = new SlimefunItemStack(
             "EL_REINFORCED_HAMMER",
             Material.IRON_PICKAXE,
-            "&fIron Hammer",
+            "&f铁锤子",
             "",
-            "&7Iron version of Stone Hammer"
+            "&7石锤的铁质版本"
     );
 
     static {
@@ -80,39 +80,38 @@ public class EXItems {
     public static final SlimefunItemStack DUST = new SlimefunItemStack(
             "EL_DUST",
             Material.CLAY,
-            "&fDust",
+            "&f灰尘",
             "",
-            "&7Crushed version of sand",
-            "&7Can be used for sifting"
+            "&7粉碎版的沙子",
+            "&7可用于筛分"
     );
     public static final SlimefunItemStack WORM = new SlimefunItemStack(
             "EL_WORM",
             Material.STRING,
-            "&fWorm",
+            "&f虫子",
             "",
-            "&7A Creature that lives on leaves"
+            "&7住在树叶上的生物"
     );
     public static final SlimefunItemStack COOKED_WORM = new SlimefunItemStack(
             "EL_COOKED_WORM",
             Material.STRING,
-            "&fCooked Worm",
+            "&f煮熟的虫子",
             "",
-            "&7Edible version of worm.",
-            "&7Yummy I guess?"
+            "&7可食用版的虫子。",
+            "&7我猜是好吃的?"
     );
     public static final SlimefunItemStack COOKED_APPLE = new SlimefunItemStack(
             "EL_COOKED_APPLE",
             Material.APPLE,
-            "&fCooked Apple",
+            "&f煮熟的苹果",
             "",
-            "&7Burned version of apple",
-            "&7Somehow better than normal one?"
+            "&7烧过的苹果比正常的好吗?"
     );
     //MACHINES
     public static final SlimefunItemStack ENCHANTED_WORKBENCH = new SlimefunItemStack(
             "EL_ENCHANTED_WORKBENCH",
             Material.CRAFTING_TABLE,
-            "&fEnchanted Workbench"
+            "&f神奇的工作台"
     );
     public static void setup(ExLimus el){
         new Hammer(EXCategory.EL_TOOLS, STONE_HAMMER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[]{

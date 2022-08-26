@@ -14,24 +14,24 @@ public class EXCategory {
     public static final ItemGroup EL_TOOLS = new SubGroup(
             "el_tools",
             new CustomItemStack(Material.DIAMOND_PICKAXE,
-                    "&9Tools")
+                    "&9工具")
     );
     public static final ItemGroup EL_MACHINES = new SubGroup(
             "el_machines",
             new CustomItemStack(Material.SCAFFOLDING,
-                    "&5Machines")
+                    "&5机器")
     );
 
     public static final ItemGroup EL_MISC = new SubGroup(
             "el_misc",
             new CustomItemStack(SlimefunItems.TIN_CAN,
-                    "&aMiscellaneous")
+                    "&a杂项")
     );
 
     public static final ItemGroup EL_VANILLA = new SubGroup(
             "el_vanilla",
             new CustomItemStack(Material.GRASS_BLOCK,
-                    "&fVanilla Items"));
+                    "&f原版物品"));
 
     public static final ItemGroup EL_MAIN = new MultiGroup(
             "el_main",

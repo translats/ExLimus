@@ -9,7 +9,7 @@ import org.bukkit.NamespacedKey;
 
 @UtilityClass
 public class EXRecipeTypes {
-    public static final RecipeType HAMMER_BREAK = new RecipeType(new NamespacedKey(ExLimus.getAddon(), "el_hammer_break"), new CustomItemStack(Material.DIAMOND_PICKAXE,"&6Digging with Stone Hammer","","&7Item can be gathered via breaking specific block"));
-    public static final RecipeType KAMA_BREAK = new RecipeType(new NamespacedKey(ExLimus.getAddon(), "el_kama_break"),new CustomItemStack(Material.WOODEN_HOE,"&6Harvesting with Wooden Kama","","&7Item can be harvested via breaking specific block"));
-    public static final RecipeType GRINDER = new RecipeType(new NamespacedKey(ExLimus.getAddon(), "el_grinder"),new CustomItemStack(Material.GRINDSTONE,"&7Crafted using grinder","","&7Item can be made via grinding specific block in grinder"));
+    public static final RecipeType HAMMER_BREAK = new RecipeType(new NamespacedKey(ExLimus.getAddon(), "el_hammer_break"), new CustomItemStack(Material.DIAMOND_PICKAXE,"&6用石锤挖地","","&7项目可以通过打破特定区块来收集"));
+    public static final RecipeType KAMA_BREAK = new RecipeType(new NamespacedKey(ExLimus.getAddon(), "el_kama_break"),new CustomItemStack(Material.WOODEN_HOE,"&6用木卡马收割","","&7可以通过破坏特定区块来收获物品"));
+    public static final RecipeType GRINDER = new RecipeType(new NamespacedKey(ExLimus.getAddon(), "el_grinder"),new CustomItemStack(Material.GRINDSTONE,"&7使用研磨机制作","","&7该项目可以通过在研磨机中研磨特定的块来制作"));
 }

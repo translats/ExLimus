@@ -23,7 +23,7 @@ public class MCItems {
 
         new VanillaItem(EXCategory.EL_VANILLA, new ItemStack(Material.GRAVEL), "GRAVEL", EXRecipeTypes.HAMMER_BREAK, new ItemStack[]{
                 null, null, null,
-                null, new CustomItemStack(new ItemStack(Material.STONE), "&7Every Stone Variant"), null,
+                null, new CustomItemStack(new ItemStack(Material.STONE), "&7每种石头的变体"), null,
                 null, null, null
         }).register(el);
 

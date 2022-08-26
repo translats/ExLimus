@@ -67,7 +67,7 @@ public final class Workbench extends MenuBlock implements Listener {
         if (Slimefun.getMinecraftVersion().isBefore(MinecraftVersion.MINECRAFT_1_17)) {
             craftItem = Workbench::craftItemOld;
             Scheduler.run(() -> ExLimus.log(Level.WARNING,
-                    "The SimpleWorkbench may not be able to craft vanilla recipes in mc 1.16"));
+                    "SimpleWorkbench可能无法在麦克1.16中制作香草配方"));
         } else {
             craftItem = Workbench::craftItem;
         }
@@ -149,7 +149,7 @@ public final class Workbench extends MenuBlock implements Listener {
                     return;
                 }
                 if (item instanceof SlimefunBackpack) {
-                    p.sendMessage(ChatColor.RED + "Use the enhanced crafting table to upgrade backpacks!");
+                    p.sendMessage(ChatColor.RED + "使用增强的工艺台来升级背包!");
                     return;
                 }
             }
