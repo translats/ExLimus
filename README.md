@@ -1,20 +1,14 @@
 # Slimefun4 Addon
-This is an example Repository for a generic Slimefun4 Addon.
-In the top left is a button "Use this template", click this to create your own Addon for Slimefun4 using this basic template.
+这是一个通用的 Slimefun4 附加组件的示例存储库。 左上方是一个按钮“使用此模板”，点击此按钮使用此基本模板创建您自己的 Slimefun4 附加组件.
 
-## How to create your own addon.
-This is a template repository that you can use to create your own Slimefun4 Addon.<br>
-We have also written an extensive step-by-step tutorial which you can find here:<br>
-https://github.com/Slimefun/Slimefun4/wiki/Developer-Guide
+## 如何创建您自己的插件。
+这是一个模板仓库，您可以用来创建自己的 Slimefun4 Addon。<br> 我们还编写了一个内容广泛的逐步教程，你可以在这里找到：<br> https://github.com/Slimefun/Slimefuns/wiki/开发者指南
 
-## Changing some important things
-Navigate to `src/main/java` and rename the package and the .java File to your liking.<br>
-Suggestion: "me.yourname.yourproject" (all lower case) and "ProjectName.java"<br>
-Example: "me.thebusybiscuit.cooladdon" and "CoolAddon.java"
+## 更改一些重要内容
+导航到 `src/main/java` 并将软件包和 .java 文件重命名为您喜欢的。<br> 建议： "我。 ourname.yourproject" (所有小写) 和 "ProjectName.java"<br> 示例： "me.thebusybiscuit.coladdon" 和 "CoolAddon.java"
 
-Navigate to `src/main/resources/plugin.yml` and change the "author" and "main" attributes.
-You may also want to change the description to something meaningful.
+导航到 `src/main/resources/plugin.yml` 并更改"author" 和 "main" 属性。 您也可能想要将描述更改为有意义的东西。
 
-Navigate to `pom.xml` and change the group id to "me.%Your name%" and change the artifact id to the name of your Project.
+导航到 `pom.xml` 并将群组id 更改为"我.%your name%"并将艺术品编号更改为你项目的名称。
 
-After that you are good to go, you can now start developing your own Addon for Slimefun4.
+在这之后，你可以开始为Slimefun4开发自己的附加组件。
