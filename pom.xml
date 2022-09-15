@@ -35,7 +35,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.3.0</version>
+                <version>3.4.0</version>
                 <configuration>
                     <!-- This will exclude any unused classes from libraries to reduce file size, not required -->
                     <minimizeJar>true</minimizeJar>
