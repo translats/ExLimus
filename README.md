@@ -1,5 +1,5 @@
 # Slimefun4 Addon
-这是一个通用的 Slimefun4 附加组件的示例存储库。 左上方是一个按钮“使用此模板”，点击此按钮使用此基本模板创建您自己的 Slimefun4 附加组件.
+这是一个通用的 Slimefun4 附加组件的示例存储库。 左上方是一个按钮“使用此模板”，点击此按钮使用此基本模板创建您自己的 Slimefun4 附加组件。
 
 ## 如何创建您自己的插件。
 这是一个模板仓库，您可以用来创建自己的 Slimefun4 Addon。<br> 我们还编写了一个内容广泛的逐步教程，你可以在这里找到：<br> https://github.com/Slimefun/Slimefuns/wiki/开发者指南
