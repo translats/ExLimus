@@ -27,12 +27,12 @@ public final class ExLimus extends AbstractAddon implements SlimefunAddon {
 
         sender.sendMessage("");
         sender.sendMessage(ChatColor.GOLD + ">--------------------- Ex Limus ---------------------<");
-        sender.sendMessage(ChatColor.GREEN + " 版本: " + ChatColor.BOLD + ChatColor.BOLD + getPluginVersion());
+        sender.sendMessage(ChatColor.GREEN + " Version: " + ChatColor.BOLD + ChatColor.BOLD + getPluginVersion());
         sender.sendMessage(ChatColor.GOLD + ">-------------------- Information -------------------<");
-        sender.sendMessage(ChatColor.WHITE + " 一个由TerslenK创建的附加组件");
+        sender.sendMessage(ChatColor.WHITE + " An Addon Created by TerslenK");
         sender.sendMessage("");
-        sender.sendMessage(ChatColor.WHITE + " 特别感谢lucasGithuber");
-        sender.sendMessage(ChatColor.GOLD + ">-------------- 问题信息链接 --------------<");
+        sender.sendMessage(ChatColor.WHITE + " Special Thanks to lucasGithuber");
+        sender.sendMessage(ChatColor.GOLD + ">-------------- Issue Information Link --------------<");
         sender.sendMessage(ChatColor.RED + " " + getBugTrackerLink());
         sender.sendMessage(ChatColor.GOLD + ">----------------------------------------------------<");
         sender.sendMessage("");
